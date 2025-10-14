@@ -68,8 +68,8 @@ ${formData.message}
     {
       icon: Phone,
       title: 'Phone Numbers',
-      details: ['7889631171', '9596906600'],
-      action: 'tel:7889631171'
+      details: ['+917889631171', '+919596906600'],
+      action: 'tel:+917889631171'
     },
     {
       icon: Mail,

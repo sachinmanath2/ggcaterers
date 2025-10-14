@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Phone, Mail, MapPin, Heart } from 'lucide-react';
 import LogoImg from '../assets/Logo.png';
@@ -81,12 +82,30 @@ const Footer = () => {
           >
             <span className="text-lg font-semibold text-gold mb-6 block">Our Services</span>
             <ul className="space-y-3 text-gray-400">
-              <li>Indian Wedding Planning</li>
-              <li>Destination Weddings</li>
-              <li>Corporate Events</li>
-              <li>Social Events</li>
-              <li>Catering Services</li>
-              <li>Event Photography</li>              
+              <li>
+                <Link to="/services/indian-wedding-planning">Indian Wedding Planning</Link>
+              </li>
+              <li>
+                <Link to="/services/destination-weddings">Destination Weddings</Link>
+              </li>
+              <li>
+                <Link to="/services/corporate-events">Corporate Events</Link>
+              </li>
+              <li>
+                <Link to="/services/social-events">Social Events</Link>
+              </li>
+              <li>
+                <Link to="/services/catering-services">Catering Services</Link>
+              </li>
+              <li>
+                <Link to="/services/event-photography">Event Photography</Link>
+              </li>
+              <li>
+                <Link to="/services/roka-caterers">Roka Caterers</Link>
+              </li>
+              <li>
+                <Link to="/services/ring-ceremony-caterers">Ring Ceremony Caterers</Link>
+              </li>
             </ul>
           </motion.div>
 
