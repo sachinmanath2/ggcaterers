@@ -7,6 +7,13 @@ import { Button } from '../components/ui/button';
 import { ArrowRight } from 'lucide-react';
 import eventImg from '../assets/event-services.png';
 
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "../components/ui/accordion";
+
 const ServicePage = () => {
   const { slug } = useParams();
   const service = servicesData.find((s) => s.slug === slug);
@@ -65,21 +72,43 @@ const ServicePage = () => {
                 {service.content}
               </motion.div>
 
+              {service.faq && service.faq.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.8, delay: 0.2 }}
+                  className="mt-20"
+                >
+                  <h2 className="text-3xl font-bold mb-8 text-center text-slate-800">Frequently Asked Questions</h2>
+                  <Accordion type="single" collapsible className="w-full">
+                    {service.faq.map((item, index) => (
+                      <AccordionItem value={`item-${index}`} key={index}>
+                        <AccordionTrigger className="text-lg text-left font-semibold">{item.question}</AccordionTrigger>
+                        <AccordionContent className="text-slate-600">
+                          {item.answer}
+                        </AccordionContent>
+                      </AccordionItem>
+                    ))}
+                  </Accordion>
+                </motion.div>
+              )}
+
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8, delay: 0.3 }}
-                className="mt-16 text-center"
+                className="mt-20 text-center"
               >
                 <h2 className="text-3xl font-bold mb-4 text-slate-800">Ready to Plan Your Event?</h2>
                 <p className="text-lg text-slate-600 mb-8 max-w-2xl mx-auto">
                   Contact GG Caterers today to make your next celebration truly memorable!
                 </p>
                 <Button asChild size="lg" className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-lg">
-                  <a href="/#contact">
+                  <Link to="/#contact">
                     Get a Free Quote <ArrowRight className="w-5 h-5 ml-2" />
-                  </a>
+                  </Link>
                 </Button>
               </motion.div>
             </div>
