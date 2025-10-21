@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Globe, Briefcase, PartyPopper, UtensilsCrossed, Camera, Gem, Circle as Ring } from 'lucide-react';
+import destinationImg from '../assets/destination-wedding.jpeg';
 
 export const servicesData = [
   {
@@ -51,7 +52,8 @@ export const servicesData = [
     imageText: 'Scenic mountain view with a wedding arch setup',
     content: (
       <>
-        <p>Escape the ordinary and say "I do" against a backdrop of stunning landscapes. GG Caterers specializes in planning unforgettable <strong>Destination Weddings in Jammu and Kashmir</strong>. Whether you dream of a serene wedding by the Dal Lake in Srinagar or a majestic celebration amidst the hills of Patnitop, we bring your vision to life. A destination wedding is an intimate and immersive experience for you and your guests.</p>
+        <p>Escape the ordinary and say <strong className="font-extrabold text-xl">"I do"</strong> against a backdrop of stunning landscapes. GG Caterers specializes in planning unforgettable <strong>Destination Weddings in Jammu and Kashmir</strong>. Whether you dream of a serene wedding by the Dal Lake in Srinagar or a majestic celebration amidst the hills of Patnitop, we bring your vision to life. A destination wedding is an intimate and immersive experience for you and your guests.</p>
+        <img src={destinationImg} alt="Destination wedding in patnitop Jammu" className=" mb-4 mt-4" / >
         <h2 className="mt-8 mb-4 text-2xl font-bold">Your Dream Destination Wedding with GG Caterers</h2>
         <p>As premier <strong>event organizers in Jammu</strong>, our expertise extends across the most beautiful locales in the region. We handle all the logistics, so you can focus on making memories. Our team’s deep-rooted knowledge of Jammu, Kathua, and especially the scenic wonders of Srinagar, makes us the perfect partner for your destination wedding. We combine spectacular venues with the <strong>best catering services in Jammu</strong> to create a truly magical event.</p>
         <h3 className="mt-6 mb-3 text-xl font-semibold">Our Destination Wedding Offerings:</h3>
