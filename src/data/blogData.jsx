@@ -1,10 +1,16 @@
-import React from 'react';
+  import React from 'react';
 import bestImage1 from '../assets/best-caterers-jammu.jpeg';
 import bestImage2 from '../assets/kashmiri-wazwan-dishes.jpg';
 import bestImage3 from '../assets/fresh-ingredients.jpg';
 import bestImage4 from '../assets/wedding-catering-jammu.jpeg';
 import bestImage5 from '../assets/professional-catering-staff.jpg';
 
+import celebrationImg1 from '../assets/festival-celebration-event-management.jpg';
+import celebrationImg2 from '../assets/diwali-catering.png';
+import celebrationImg3 from '../assets/eid-catering.png';
+import celebrationImg4 from '../assets/New-Year-Food-Catering.png';
+import celebrationImg5 from '../assets/christmas-catering.jpg';
+import celebrationImg6 from '../assets/valentines-catering.png';
 const CtaSection = ({ district }) => (
   <div className="my-12 p-8 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg">
     <h2 className="text-3xl font-bold mb-4">Planning an Event in {district}?</h2>
@@ -78,7 +84,7 @@ const HallList = ({ halls }) => (
   <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
     {halls.map((hall, index) => (
         <div key={index} className="mb-4 p-6 border rounded-xl shadow-sm bg-white">
-          <h3 className="font-bold text-2xl mb-3">{index + 1}. {hall.name}</h3>
+          <h3 className="font-bold text-2xl mb-3 mt-3">{index + 1}. {hall.name}</h3>
           <ul className="list-none space-y-2">
             <li><span className="font-semibold">📍 Location:</span> {hall.location}</li>
             <li><span className="font-semibold">☎️ Contact:</span> {hall.contact}</li>
@@ -271,7 +277,7 @@ export const blogPosts = [
 
         <h2 className="mt-8 mb-6">What Makes the Best Caterers in Jammu Stand Out?</h2>
 
-        <h3 className="font-bold text-2xl mb-3">1. Diverse Menu Options</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">1. Diverse Menu Options</h3>
 
         <p className="mb-2">Top caterers in Jammu offer a wide variety of cuisines to suit different tastes and preferences:</p>
 
@@ -310,7 +316,7 @@ export const blogPosts = [
 
         <p className="mb-6">The best caterers in Jammu understand that modern weddings and events require flexibility, offering customizable menus that blend traditional Kashmiri flavors with contemporary cuisines.</p>
 
-        <h3 className="font-bold text-2xl mb-3">2. Quality of Ingredients</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">2. Quality of Ingredients</h3>
 
         <img src={bestImage3} alt="Fresh quality ingredients used by best caterers in Jammu" className="w-1/2 mb-6"/>
 
@@ -325,7 +331,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Red Flag:</strong> Be cautious of caterers who can't explain their sourcing or show you their kitchen facilities.</p>
 
-        <h3 className="font-bold text-2xl mb-3">3. Professional Service Staff</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">3. Professional Service Staff</h3>
 
         <p className="mb-2">The best caterers in Jammu provide:</p>
         <ul className="mb-2">
@@ -340,7 +346,7 @@ export const blogPosts = [
 
         <p className="mb-6">Poor service can ruin even the best food, so this aspect is crucial when selecting caterers in Jammu.</p>
 
-        <h3 className="font-bold text-2xl mb-3">4. Experience and Track Record</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">4. Experience and Track Record</h3>
 
         <p className="mb-2">Experienced caterers bring invaluable benefits:</p>
         <ul  className="mb-2">
@@ -353,7 +359,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Pro Tip:</strong> Always check Google reviews and ask for references from recent clients before booking any caterer in Jammu.</p>
 
-        <h3 className="font-bold text-2xl mb-3">5. Hygiene and Food Safety Standards</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">5. Hygiene and Food Safety Standards</h3>
 
         <p className="mb-2">The best caterers in Jammu maintain strict hygiene protocols:</p>
         <ul  className="mb-2">
@@ -366,7 +372,7 @@ export const blogPosts = [
 
         <p className="mb-6">Don't hesitate to ask for kitchen tours or food safety certifications when evaluating caterers.</p>
 
-        <h3 className="font-bold text-2xl mb-3">6. Transparent Pricing</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">6. Transparent Pricing</h3>
 
         <p className="mb-2">Reputable caterers provide:</p>
         <ul className="mb-2">
@@ -379,7 +385,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Warning Sign:</strong> Avoid caterers who are vague about pricing or can't provide written estimates.</p>
 
-        <h3 className="font-bold text-2xl mb-3">7. Flexibility and Customization</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">7. Flexibility and Customization</h3>
 
         <p className="mb-2">Top caterers in Jammu offer:</p>
         <ul className="mb-2">
@@ -409,7 +415,7 @@ export const blogPosts = [
 
         <p className="mb-6">The best wedding caterers in Jammu have done it all and can manage the complexity seamlessly.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Corporate Events</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Corporate Events</h3>
 
         <p className="mb-2">Professional caterers understand corporate requirements:</p>
         <ul className="mb-2">
@@ -422,7 +428,7 @@ export const blogPosts = [
 
         <p className="mb-6">Corporate catering requires punctuality, professional presentation, and dietary flexibility.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Social and Family Events</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Social and Family Events</h3>
 
         <p className="mb-2">The best caterers in Jammu excel at:</p>
         <ul className="mb-2">
@@ -435,7 +441,7 @@ export const blogPosts = [
 
         <p className="mb-6">These events require a personal touch and attention to family preferences.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Outdoor and Destination Events</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Outdoor and Destination Events</h3>
 
         <p className="mb-2">Experienced caterers can handle challenging locations:</p>
         <ul className="mb-2">
@@ -449,7 +455,7 @@ export const blogPosts = [
 
         <h2 className="font-bold text-3xl mt-8 mb-2">How to Choose the Best Caterer in Jammu: Step-by-Step Guide</h2>
 
-        <h3 className="font-bold text-2xl mb-3">Step 1: Define Your Requirements</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 1: Define Your Requirements</h3>
 
         <p className="mb-2">Before contacting caterers, be clear about:</p>
         <ul className="mb-2">
@@ -464,7 +470,7 @@ export const blogPosts = [
 
         <p className="mb-6">Having this information ready will help caterers provide accurate quotes.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 2: Research and Shortlist</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 2: Research and Shortlist</h3>
 
         <p className="mb-2">Find potential caterers through:</p>
         <ul className="mb-2">
@@ -478,7 +484,7 @@ export const blogPosts = [
 
         <p className="mb-6">Create a shortlist of 4-5 caterers with good reviews and relevant experience.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 3: Check Online Reviews and Ratings</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 3: Check Online Reviews and Ratings</h3>
 
         <p className="mb-2">Look for:</p>
         <ul className="mb-2">
@@ -491,7 +497,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Red Flags:</strong> No online presence, mostly negative reviews, or defensive responses to criticism.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 4: Request Quotations</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 4: Request Quotations</h3>
 
         <p className="mb-2">Contact your shortlisted caterers and ask for:</p>
         <ul className="mb-2">
@@ -505,7 +511,7 @@ export const blogPosts = [
 
         <p className="mb-6">Compare quotes carefully—cheapest isn't always best, but overpriced doesn't guarantee quality either.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 5: Schedule Food Tasting</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 5: Schedule Food Tasting</h3>
 
         {/* <img src="your-image-path/food-tasting-session.jpg" alt="Food tasting with best caterers in Jammu" style="width:100%; max-width:800px; height:auto;"> */}
 
@@ -530,7 +536,7 @@ export const blogPosts = [
 
         <p className="mb-6">Trust your taste buds—if the food doesn't wow you at tasting, it won't wow your guests either.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 6: Visit Their Kitchen (If Possible)</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 6: Visit Their Kitchen (If Possible)</h3>
 
         <p className="mb-2">The best caterers welcome kitchen visits. Look for:</p>
         <ul className="mb-2">
@@ -544,7 +550,7 @@ export const blogPosts = [
 
         <p className="mb-6">If a caterer refuses kitchen visits, that's a warning sign.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 7: Check References</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 7: Check References</h3>
 
         <p className="mb-6">Ask for contact details of 2-3 recent clients and call them:</p>
 
@@ -559,7 +565,7 @@ export const blogPosts = [
 
         <p className="mb-6">Genuine caterers happily provide references; unreliable ones make excuses.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 8: Review the Contract Carefully</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 8: Review the Contract Carefully</h3>
 
         <p className="mb-2">Before signing, ensure the contract includes:</p>
         <ul className="mb-2">
@@ -576,7 +582,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Never pay full amount upfront.</strong> Standard practice: 25% advance, 50% a week before, 25% after successful completion.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Step 9: Final Menu Confirmation</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 9: Final Menu Confirmation</h3>
 
         <p className="mb-2">2-3 weeks before the event:</p>
         <ul className="mb-2">
@@ -588,7 +594,7 @@ export const blogPosts = [
             <li>Ensure caterer has venue contact and event schedule</li>
         </ul>
 
-        <h3 className="font-bold text-2xl mb-3">Step 10: Day-of Coordination</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Step 10: Day-of Coordination</h3>
 
         <p className="mb-2">On the event day:</p>
         <ul className="mb-2">
@@ -601,7 +607,7 @@ export const blogPosts = [
 
         <h2 className="mt-8 mb-6">Top Questions to Ask When Hiring Caterers in Jammu</h2>
 
-        <h3 className="font-bold text-2xl mb-3">About Experience and Credentials</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Experience and Credentials</h3>
         <ol className="mb-2">
             <li>How many years have you been catering in Jammu?</li>
             <li>Can you show photos and videos from recent events?</li>
@@ -609,7 +615,7 @@ export const blogPosts = [
             <li>What's the largest event you've handled?</li>
         </ol>
 
-        <h3 className="font-bold text-2xl mb-3">About Menu and Food</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Menu and Food</h3>
         <ol className="mb-2"  start="6">
             <li>Can we customize the menu according to our preferences?</li>
             <li>Do you accommodate dietary restrictions and allergies?</li>
@@ -618,7 +624,7 @@ export const blogPosts = [
             <li>Do you offer seasonal menu options?</li>
         </ol>
 
-        <h3 className="font-bold text-2xl mb-3">About Service and Logistics</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Service and Logistics</h3>
         <ol className="mb-2" start="11">
             <li>How many service staff will you provide for our guest count?</li>
             <li>What is your staff-to-guest ratio?</li>
@@ -627,7 +633,7 @@ export const blogPosts = [
             <li>How do you handle food temperature maintenance?</li>
         </ol>
 
-        <h3 className="font-bold text-2xl mb-3">About Pricing and Inclusions</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Pricing and Inclusions</h3>
         <ol className="mb-2" start="16">
             <li>What exactly is included in the per-plate price?</li>
             <li>Are there any additional charges we should know about?</li>
@@ -636,7 +642,7 @@ export const blogPosts = [
             <li>Is GST included in the quoted price?</li>
         </ol>
 
-        <h3 className="font-bold text-2xl mb-3">About Equipment and Setup</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Equipment and Setup</h3>
         <ol className="mb-2" start="21">
             <li>Do you provide crockery, cutlery, and serving dishes?</li>
             <li>Are tables, chairs, and linen included or extra?</li>
@@ -645,7 +651,7 @@ export const blogPosts = [
             <li>Do you have backup equipment in case of failure?</li>
         </ol>
 
-        <h3 className="font-bold text-2xl mb-3">About Policies and Guarantees</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">About Policies and Guarantees</h3>
         <ol className="mb-2" start="26">
             <li>What's your cancellation and rescheduling policy?</li>
             <li>What if our guest count changes at the last minute?</li>
@@ -656,7 +662,7 @@ export const blogPosts = [
 
         <h2 className="mt-8 mb-6">Red Flags to Avoid When Choosing Caterers in Jammu</h2>
 
-        <h3 className="font-bold text-2xl mb-3">❌ Warning Signs of Unreliable Caterers:</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">❌ Warning Signs of Unreliable Caterers:</h3>
 
         <p className="mb-2"><strong>Poor Communication:</strong></p>
         <ul className="mb-2">
@@ -712,7 +718,7 @@ export const blogPosts = [
 
         <p className="mb-6">At <a href="https://www.ggcaterers.com">GG Caterers</a>, we've been serving Jammu for over 15 years, building our reputation as one of the best caterers in Jammu through consistent quality, professional service, and genuine care for our clients' special moments.</p>
 
-        <h3 className="font-bold text-2xl mb-3">Why Families Trust GG Caterers:</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Why Families Trust GG Caterers:</h3>
 
         <p className="mb-2"><strong>🍽️ Extensive Menu Variety</strong></p>
         <ul className="mb-2">
@@ -776,7 +782,7 @@ export const blogPosts = [
             <li>Genuine care for your satisfaction</li>
         </ul>
 
-        <h3 className="font-bold text-2xl mb-3">Our Commitment to You:</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Our Commitment to You:</h3>
 
         <p className="mb-2">At GG Caterers, we understand that food is more than just sustenance—it's an expression of love, celebration, and hospitality. Whether you're planning an intimate family gathering or a grand wedding celebration, we treat every event with the same dedication and attention to detail.</p>
 
@@ -799,7 +805,7 @@ export const blogPosts = [
 
         <h2 className="mt-8 mb-6">Seasonal Considerations for Catering in Jammu</h2>
 
-        <h3 className="font-bold text-2xl mb-3">Peak Wedding Season (October-March)</h3>
+        <h3 className="font-bold text-2xl mb-3 mt-3">Peak Wedding Season (October-March)</h3>
 
         <p className="mb-2"><strong>Advantages:</strong></p>
         <ul className="mb-2">
@@ -979,6 +985,546 @@ export const blogPosts = [
         <p className="mb-2"><strong><span >Book Your Consultation Now!</span></strong></p>
         <p  className="mb-2">Don&apos;t leave your event catering to chance. Contact GG Caterers today to discuss how we can make your celebration extraordinary. Whether it&apos;s an intimate gathering or a grand wedding, we&apos;re committed to delivering the quality, taste, and service that have made us one of the best caterers in Jammu.</p>
         <p className="mb-6"><strong>Let&apos;s create delicious memories together!</strong></p>
+      </>
+    ),
+  },
+  {
+    slug: 'festival-event-management-jammu',
+    title: 'Festival Event Management in Jammu | Diwali, Eid, Christmas, New Year Catering Services',
+    excerpt: 'Festivals are the heartbeat of life in Jammu & Kashmir. Whether it\'s the sparkling lights of Diwali, the joyous festivities of Eid, the excitement of New Year celebrations, or the warmth of Christmas gatherings, every festival brings people together for memorable celebrations',
+    content: (
+      <>
+             
+      <h1 className="font-bold text-3xl mb-2">Festival Event Management in Jammu: Complete Guide to Diwali, Eid, New Year, Christmas & More Celebrations</h1>
+      
+      <img src={celebrationImg1} alt="Festival celebration event management by best caterers in Jammu" className="w-1/2 mb-4" />
+      
+      <p className="mb-2"> Festivals are the heartbeat of life in Jammu & Kashmir. Whether it's the sparkling lights of Diwali, the joyous festivities of Eid, the excitement of New Year celebrations, or the warmth of Christmas gatherings, every festival brings people together for memorable celebrations.</p>
+      
+      <p className="mb-2"> Planning a festival event in Jammu requires expert event management, exceptional catering services, and attention to cultural details. As one of the <strong>best caterers in Jammu</strong>, we understand that festival celebrations are more than just food—they're about creating magical moments, honoring traditions, and bringing communities together.</p>
+      
+      <p className="mb-2"> This comprehensive guide covers everything you need to know about festival event management and catering in Jammu & Kashmir, from Diwali to Eid, New Year to Valentine's Day, and every celebration in between.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Why Professional Event Management Matters for Festival Celebrations</h2>
+      
+      <p className="mb-2"> Festival events are special occasions that deserve professional handling. Here's why hiring expert <strong>event management and catering services in Jammu</strong> makes a difference:</p>
+      
+      <ul className="mb-2"> 
+          <li><strong>Cultural Sensitivity:</strong> Professional caterers understand religious and cultural requirements for each festival</li>
+          <li><strong>Menu Expertise:</strong> Traditional festival foods prepared authentically</li>
+          <li><strong>Stress-Free Hosting:</strong> Focus on celebrating while experts handle logistics</li>
+          <li><strong>Quality Assurance:</strong> Consistent food quality and professional service</li>
+          <li><strong>Time Efficiency:</strong> Complete event coordination saves valuable time</li>
+          <li><strong>Guest Satisfaction:</strong> Professional service ensures happy guests and memorable experiences</li>
+      </ul>
+      
+      <p className="mb-2"> Whether you're planning a corporate Diwali party, a family Eid celebration, or a grand New Year bash, professional <strong>event management in Jammu</strong> ensures flawless execution.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Diwali Event Management & Catering in Jammu</h2>
+      
+      <img src={celebrationImg2} alt="Diwali celebration catering by best caterers in Jammu" className="w-1/2 mb-4" / >
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Celebrating the Festival of Lights with Expert Catering</h3>
+      
+      <p className="mb-2"> Diwali is one of the most celebrated festivals in Jammu, bringing families, friends, and colleagues together for joyous celebrations. From corporate Diwali parties to family gatherings and community events, the <strong>best caterers in Jammu</strong> offer specialized Diwali event management services.</p>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Popular Diwali Events We Cater:</h3>
+      
+      <ul className="mb-2"> 
+          <li><strong>Corporate Diwali Parties:</strong> Office celebrations, employee gatherings, client appreciation events</li>
+          <li><strong>Family Diwali Get-Togethers:</strong> Home parties, extended family celebrations</li>
+          <li><strong>Community Diwali Celebrations:</strong> Society events, neighborhood gatherings</li>
+          <li><strong>Business Diwali Meetings:</strong> Corporate lunches and dinners during Diwali season</li>
+          <li><strong>Diwali Card Parties:</strong> Social gatherings with traditional games and food</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Traditional Diwali Menu Options:</h3>
+      
+      <p className="mb-2"> <strong>Vegetarian Specialties (Most Popular for Diwali):</strong></p>
+      <ul className="mb-2"> 
+          <li>Paneer Tikka, Hara Bhara Kabab, Veg Pakoda</li>
+          <li>Dal Makhani, Paneer Butter Masala, Mix Veg Curry</li>
+          <li>Chole Bhature, Puri Sabzi</li>
+          <li>Jeera Rice, Pulao, Vegetable Biryani</li>
+          <li>Traditional sweets: Gulab Jamun, Jalebi, Rasmalai, Barfi varieties</li>
+          <li>Dry fruits and nuts assortment</li>
+          <li>Special Diwali namkeen and snacks</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Live Food Counters for Diwali:</strong></p>
+      <ul className="mb-2"> 
+          <li>Chaat Counter: Golgappa, Aloo Tikki, Papdi Chaat, Bhel Puri</li>
+          <li>Live Dosa and South Indian Counter</li>
+          <li>Fresh Jalebi and Sweet Counter</li>
+          <li>Hot Samosa and Pakoda Station</li>
+          <li>Tea and Coffee Bar with Special Masala Chai</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Diwali Event Decoration & Setup:</h3>
+      
+      <p className="mb-2"> Professional <strong>event management in Jammu</strong> includes:</p>
+      <ul className="mb-2"> 
+          <li>Traditional diyas and candle arrangements</li>
+          <li>Rangoli designs and floral decorations</li>
+          <li>String lights and festive lighting</li>
+          <li>Themed table settings with gold and orange accents</li>
+          <li>Photo booth with Diwali props</li>
+          <li>Traditional music and entertainment coordination</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Corporate Diwali Event Management:</h3>
+      
+      <p className="mb-2"> For businesses in Jammu & Kashmir, corporate Diwali celebrations strengthen team bonds and client relationships. Our <strong>catering services in Jammu</strong> offer:</p>
+      <ul className="mb-2"> 
+          <li>Buffet-style or plated service options</li>
+          <li>Professional staff in festive attire</li>
+          <li>Branded setup with company logo integration</li>
+          <li>Gift hamper coordination</li>
+          <li>Entertainment and activity management</li>
+          <li>Complete event timeline management</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Diwali Catering Pricing:</strong> ₹500 - ₹1,500 per person depending on menu selection and event scale.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Eid Event Management & Catering in Jammu & Kashmir</h2>
+      
+      <img src={celebrationImg3} alt="Eid celebration catering services in Jammu Kashmir" className="w-1/2 mb-4"/>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Celebrating Eid-ul-Fitr and Eid-ul-Adha with Authentic Flavors</h3>
+      
+      <p className="mb-2"> Eid celebrations in Jammu & Kashmir are grand affairs featuring traditional Kashmiri and Mughlai cuisines. As experienced <strong>caterers in Jammu</strong>, we understand the importance of authentic flavors and cultural traditions during Eid festivities.</p>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Types of Eid Celebrations We Cater:</h3>
+      
+      <ul className="mb-2"> 
+          <li><strong>Family Eid Gatherings:</strong> Home celebrations with extended family</li>
+          <li><strong>Community Eid Events:</strong> Mosque gatherings, community halls</li>
+          <li><strong>Corporate Eid Celebrations:</strong> Office parties and business gatherings</li>
+          <li><strong>Eid Dawats:</strong> Special invitation lunches and dinners</li>
+          <li><strong>Charity Eid Events:</strong> Community feeding programs</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Authentic Eid Menu Specialties:</h3>
+      
+      <p className="mb-2"> <strong>Traditional Kashmiri Wazwan for Eid:</strong></p>
+      <ul className="mb-2"> 
+          <li>Rista (meatballs in red gravy)</li>
+          <li>Gushtaba (meatballs in yogurt gravy)</li>
+          <li>Rogan Josh (aromatic mutton curry)</li>
+          <li>Tabak Maaz (fried lamb ribs)</li>
+          <li>Yakhni (yogurt-based mutton curry)</li>
+          <li>Kashmiri Pulao and Steamed Rice</li>
+          <li>Traditional Kashmiri bread</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Mughlai & North Indian Options:</strong></p>
+      <ul className="mb-2"> 
+          <li>Mutton Biryani, Chicken Biryani</li>
+          <li>Mutton Korma, Chicken Korma</li>
+          <li>Seekh Kebab, Shami Kebab, Galouti Kebab</li>
+          <li>Nihari, Haleem</li>
+          <li>Tandoori Chicken, Chicken Tikka</li>
+          <li>Dal Makhani, Paneer dishes (for vegetarian options)</li>
+          <li>Naan, Roti, Sheermal, Kulcha</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Special Eid Desserts:</strong></p>
+      <ul className="mb-2"> 
+          <li>Sheer Khurma (vermicelli pudding with dates and nuts)</li>
+          <li>Phirni (rice pudding)</li>
+          <li>Seviyan (sweet vermicelli)</li>
+          <li>Kheer, Zarda</li>
+          <li>Traditional sweets: Barfi, Gulab Jamun</li>
+          <li>Fresh fruit platter</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Halal Certification & Quality Standards:</h3>
+      
+      <p className="mb-2"> The <strong>best caterers in Jammu</strong> ensure:</p>
+      <ul className="mb-2"> 
+          <li>100% Halal meat sourcing from certified suppliers</li>
+          <li>Separate preparation areas for non-vegetarian items</li>
+          <li>Strict hygiene and food safety protocols</li>
+          <li>Traditional preparation methods by experienced cooks</li>
+          <li>Respect for religious customs and practices</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Eid Catering Pricing:</strong> ₹600 - ₹2,000 per person for authentic Wazwan and premium Mughlai spreads.</p>
+      
+      <h2 className="font-bold text-xl mb-3">New Year Event Management & Catering in Jammu</h2>
+      
+      <img src={celebrationImg4} alt="New Year celebration event management and catering in Jammu" className="w-1/2 mb-4" / >
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Ring in the New Year with Spectacular Celebrations</h3>
+      
+      <p className="mb-2"> New Year's Eve is the biggest party night of the year! Whether you're planning an intimate gathering or a grand celebration, professional <strong>event management and catering in Jammu</strong> ensures your New Year party is unforgettable.</p>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">New Year Events We Manage:</h3>
+      
+      <ul className="mb-2"> 
+          <li><strong>New Year's Eve Parties:</strong> Countdown celebrations with music, food, and entertainment</li>
+          <li><strong>Corporate New Year Events:</strong> Company parties, client appreciation nights</li>
+          <li><strong>Hotel & Resort Celebrations:</strong> Large-scale New Year galas</li>
+          <li><strong>Private House Parties:</strong> Intimate gatherings with friends and family</li>
+          <li><strong>Club & Restaurant Events:</strong> Commercial New Year celebrations</li>
+          <li><strong>Destination New Year Parties:</strong> Patnitop, Vaishno Devi, Srinagar celebrations</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">New Year Party Menu Options:</h3>
+      
+      <p className="mb-2"> <strong>Cocktail & Appetizer Style:</strong></p>
+      <ul className="mb-2"> 
+          <li>International canapés and finger foods</li>
+          <li>Cheese and cracker platters</li>
+          <li>Mini sliders and burgers</li>
+          <li>Bruschetta varieties</li>
+          <li>Stuffed mushrooms, Spring rolls</li>
+          <li>Tandoori platters: Chicken Tikka, Paneer Tikka, Kebabs</li>
+          <li>Seafood options: Fish fingers, Prawn preparations</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Main Course Dinner Buffet:</strong></p>
+      <ul className="mb-2"> 
+          <li>Multi-cuisine spread: Indian, Chinese, Continental</li>
+          <li>Live pasta and pizza station</li>
+          <li>Grilled items and BBQ counter</li>
+          <li>Asian wok station</li>
+          <li>Traditional Indian curries and breads</li>
+          <li>Biryani and pulao varieties</li>
+          <li>Salad bar with international options</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Midnight Snacks & Late Night Munchies:</strong></p>
+      <ul className="mb-2"> 
+          <li>Hot samosas and pakoras</li>
+          <li>Maggi and noodles counter</li>
+          <li>French fries and nachos</li>
+          <li>Tea, coffee, and hot chocolate bar</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Dessert Extravaganza:</strong></p>
+      <ul className="mb-2"> 
+          <li>New Year themed cake</li>
+          <li>Chocolate fountain</li>
+          <li>Ice cream sundae bar</li>
+          <li>Assorted pastries and desserts</li>
+          <li>Traditional Indian sweets</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">New Year Event Management Services:</h3>
+      
+      <p className="mb-2"> Complete <strong>event management in Jammu</strong> for New Year includes:</p>
+      <ul className="mb-2"> 
+          <li><strong>Venue decoration:</strong> Balloons, streamers, disco lights, themed props</li>
+          <li><strong>DJ and entertainment:</strong> Music, dance floor, countdown activities</li>
+          <li><strong>Photography & videography:</strong> Professional coverage of your celebration</li>
+          <li><strong>Bar services:</strong> Mocktail bar, beverage coordination</li>
+          <li><strong>Games and activities:</strong> Photo booth, party games, contests</li>
+          <li><strong>Countdown arrangements:</strong> Cake cutting, champagne/mocktail toast, fireworks coordination</li>
+          <li><strong>Security and parking:</strong> Complete guest management</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>New Year Catering Pricing:</strong> ₹800 - ₹2,500 per person depending on venue, menu complexity, and entertainment inclusions.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Christmas Event Management & Catering in Jammu</h2>
+      
+      <img src={celebrationImg5} alt="Christmas celebration catering services by best caterers in Jammu" className="w-1/2 mb-4"/>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Creating Magical Christmas Celebrations</h3>
+      
+      <p className="mb-2"> Christmas in Jammu brings joy, warmth, and togetherness. Professional <strong>caterers in Jammu</strong> offer specialized Christmas event management for church gatherings, family celebrations, and corporate parties.</p>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Christmas Events We Cater:</h3>
+      
+      <ul className="mb-2"> 
+          <li><strong>Christmas Eve Dinners:</strong> Family gatherings and church events</li>
+          <li><strong>Christmas Day Lunches:</strong> Traditional family meals</li>
+          <li><strong>Corporate Christmas Parties:</strong> Office celebrations and client events</li>
+          <li><strong>Community Christmas Gatherings:</strong> Church events, charity programs</li>
+          <li><strong>Christmas Brunch:</strong> Morning celebrations with special breakfast items</li>
+          <li><strong>Secret Santa Parties:</strong> Fun gift exchange gatherings with food</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Traditional Christmas Menu:</h3>
+      
+      <p className="mb-2"> <strong>Christmas Starters:</strong></p>
+      <ul className="mb-2"> 
+          <li>Roasted tomato soup, Cream of mushroom soup</li>
+          <li>Chicken wings, Stuffed chicken rolls</li>
+          <li>Garlic bread, Cheese balls</li>
+          <li>Christmas salad with cranberries and nuts</li>
+          <li>Vegetable platters with dips</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Christmas Main Course:</strong></p>
+      <ul className="mb-2"> 
+          <li>Roasted turkey or chicken (whole/carved)</li>
+          <li>Honey glazed ham</li>
+          <li>Grilled fish with lemon butter</li>
+          <li>Vegetarian Wellington</li>
+          <li>Stuffing and gravy</li>
+          <li>Mashed potatoes, Roasted vegetables</li>
+          <li>Dinner rolls and butter</li>
+          <li>Pasta varieties</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Christmas Desserts:</strong></p>
+      <ul className="mb-2"> 
+          <li>Traditional Christmas cake (plum cake, fruit cake)</li>
+          <li>Gingerbread cookies</li>
+          <li>Chocolate yule log</li>
+          <li>Mince pies</li>
+          <li>Puddings and trifles</li>
+          <li>Hot chocolate and marshmallows</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Beverages:</strong></p>
+      <ul className="mb-2"> 
+          <li>Mulled wine (non-alcoholic version available)</li>
+          <li>Eggnog</li>
+          <li>Hot chocolate bar</li>
+          <li>Christmas punch</li>
+          <li>Tea and coffee selection</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Christmas Decoration & Ambiance:</h3>
+      
+      <p className="mb-2"> Our <strong>event management services in Jammu</strong> include:</p>
+      <ul className="mb-2"> 
+          <li>Christmas tree setup and decoration</li>
+          <li>Fairy lights and festive lighting</li>
+          <li>Red and green themed table settings</li>
+          <li>Christmas wreaths and garlands</li>
+          <li>Santa Claus arrangement for kids' parties</li>
+          <li>Carol singing coordination</li>
+          <li>Gift distribution management</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Christmas Catering Pricing:</strong> ₹700 - ₹2,000 per person for complete Christmas dinner with traditional preparations.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Valentine's Day Event Management & Catering in Jammu</h2>
+      
+      <img src={celebrationImg6} alt="Romantic Valentine's Day dinner catering in Jammu" className="w-1/2 mb-4" />
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Romantic Celebrations with Exquisite Catering</h3>
+      
+      <p className="mb-2"> Valentine's Day is all about romance, intimacy, and special moments. The <strong>best caterers in Jammu</strong> create memorable Valentine's experiences for couples, restaurants, hotels, and event venues.</p>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Valentine's Day Events We Manage:</h3>
+      
+      <ul className="mb-2"> 
+          <li><strong>Romantic Private Dinners:</strong> Intimate couple dining experiences</li>
+          <li><strong>Restaurant Valentine's Events:</strong> Special dinner service for restaurants</li>
+          <li><strong>Hotel Valentine's Packages:</strong> Resort and hotel romantic dinners</li>
+          <li><strong>Group Valentine's Parties:</strong> Friends gatherings and social events</li>
+          <li><strong>Corporate Valentine's Events:</strong> Office celebrations and team gatherings</li>
+          <li><strong>Rooftop Valentine's Dinners:</strong> Outdoor romantic setups</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Romantic Valentine's Menu:</h3>
+      
+      <p className="mb-2"> <strong>Elegant Appetizers:</strong></p>
+      <ul className="mb-2"> 
+          <li>Heart-shaped bruschetta</li>
+          <li>Stuffed mushrooms</li>
+          <li>Cheese fondue</li>
+          <li>Caprese salad with balsamic glaze</li>
+          <li>Soup shooters: Tomato basil, Cream of asparagus</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Main Course (Plated Service):</strong></p>
+      <ul className="mb-2"> 
+          <li>Grilled chicken breast with herb sauce</li>
+          <li>Pan-seared fish with lemon butter</li>
+          <li>Lamb chops with mint jus</li>
+          <li>Vegetarian: Stuffed bell peppers, Mushroom risotto</li>
+          <li>Pasta: Creamy alfredo, Arrabiata, Pesto</li>
+          <li>Garlic bread and dinner rolls</li>
+          <li>Roasted vegetables and mashed potatoes</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Romantic Desserts:</strong></p>
+      <ul className="mb-2"> 
+          <li>Heart-shaped chocolate cake</li>
+          <li>Molten chocolate lava cake</li>
+          <li>Strawberry cheesecake</li>
+          <li>Tiramisu</li>
+          <li>Red velvet cupcakes</li>
+          <li>Chocolate-covered strawberries</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Beverages:</strong></p>
+      <ul className="mb-2"> 
+          <li>Red wine (where permitted)</li>
+          <li>Romantic mocktails: Strawberry Kiss, Love Potion</li>
+          <li>Champagne/Sparkling juice</li>
+          <li>Special coffee: Irish coffee, Cappuccino</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Valentine's Day Setup & Ambiance:</h3>
+      
+      <p className="mb-2"> Complete <strong>event management in Jammu & Kashmir</strong> for Valentine's includes:</p>
+      <ul className="mb-2"> 
+          <li>Candlelit table settings</li>
+          <li>Red roses and romantic floral arrangements</li>
+          <li>Fairy lights and soft lighting</li>
+          <li>Heart-shaped balloons and decorations</li>
+          <li>Romantic music playlist</li>
+          <li>Photo corner with love-themed props</li>
+          <li>Personalized menu cards</li>
+          <li>Gift hamper coordination</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Valentine's Catering Pricing:</strong> ₹1,000 - ₹3,000 per couple for intimate dinners with complete romantic setup.</p>
+      
+      <h2 className="font-bold text-xl mb-3">Other Festival & Seasonal Event Management in Jammu</h2>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Holi Celebrations</h3>
+      
+      {/* <img src="https://images.unsplash.com/photo-1583844091207-fc40a7f03e8c" alt="Holi festival celebration catering in Jammu" style="width:100%; max-width:1000px; height:auto;"> */}
+      
+      <p className="mb-2"> <strong>Holi Party Catering:</strong></p>
+      <ul className="mb-2"> 
+          <li>Traditional Holi snacks: Gujiya, Mathri, Namkeen</li>
+          <li>Thandai (traditional drink) and mocktails</li>
+          <li>Chaat counter with colorful presentations</li>
+          <li>BBQ and tandoori items</li>
+          <li>Colorful desserts and sweets</li>
+          <li>Buffet lunch or dinner options</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Navratri & Durga Puja</h3>
+      
+      <p className="mb-2"> <strong>Navratri Catering Services:</strong></p>
+      <ul className="mb-2"> 
+          <li>Pure vegetarian Navratri menu (no onion, no garlic)</li>
+          <li>Fasting-friendly food options</li>
+          <li>Sabudana dishes, Kuttu preparations</li>
+          <li>Fruit platters and dry fruits</li>
+          <li>Special sweets and prasad coordination</li>
+          <li>Community feast management for Durga Puja</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Raksha Bandhan</h3>
+      
+      <p className="mb-2"> <strong>Rakhi Celebration Catering:</strong></p>
+      <ul className="mb-2"> 
+          <li>Family-style lunch or dinner service</li>
+          <li>Traditional sweets and snacks</li>
+          <li>Multi-cuisine buffet options</li>
+          <li>Home-style comfort food preparations</li>
+          <li>Dessert bar with traditional Indian sweets</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Baisakhi & Lohri</h3>
+      
+      <p className="mb-2"> <strong>Punjabi Festival Catering:</strong></p>
+      <ul className="mb-2"> 
+          <li>Authentic Punjabi cuisine: Makki di Roti, Sarson da Saag</li>
+          <li>Tandoori specialties and kebabs</li>
+          <li>Traditional sweets: Gajak, Rewri, Pinni</li>
+          <li>Lassi and traditional beverages</li>
+          <li>Bonfire snacks for Lohri celebrations</li>
+      </ul>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Birthday & Anniversary Celebrations</h3>
+      
+      <p className="mb-2"> Year-round celebration catering services in Jammu:</p>
+      <ul className="mb-2"> 
+          <li>Kids' birthday party catering with fun menu</li>
+          <li>Milestone birthday celebrations (50th, 60th, 75th)</li>
+          <li>Silver and Golden anniversary catering</li>
+          <li>Themed party food and decorations</li>
+          <li>Custom cakes and desserts</li>
+      </ul>
+      
+      <h2 className="font-bold text-xl mb-3">Why Choose Professional Caterers in Jammu for Festival Events?</h2>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Benefits of Hiring Best Caterers in Jammu:</h3>
+      
+      <p className="mb-2"> <strong>1. Cultural Expertise</strong></p>
+      <p className="mb-2"> Understanding of regional festivals, traditions, and food customs specific to Jammu & Kashmir</p>
+      
+      <p className="mb-2"> <strong>2. Menu Variety</strong></p>
+      <p className="mb-2"> Extensive menu options covering all cuisines: Kashmiri, North Indian, Mughlai, Chinese, Continental, South Indian</p>
+      
+      <p className="mb-2"> <strong>3. Quality Assurance</strong></p>
+      <p className="mb-2"> FSSAI certified kitchens, fresh ingredients, hygienic preparation, and professional service</p>
+      
+      <p className="mb-2"> <strong>4. Complete Event Management</strong></p>
+      <p className="mb-2"> Not just food—complete event coordination including decoration, entertainment, and logistics</p>
+      
+      <p className="mb-2"> <strong>5. Flexible Packages</strong></p>
+      <p className="mb-2"> Budget-friendly to luxury options available for all celebration sizes</p>
+      
+      <p className="mb-2"> <strong>6. Experienced Team</strong></p>
+      <p className="mb-2"> Skilled chefs, trained service staff, and event coordinators with years of experience</p>
+      
+      <p className="mb-2"> <strong>7. Hassle-Free Experience</strong></p>
+      <p className="mb-2"> From planning to cleanup, we handle everything so you can enjoy your celebration</p>
+      
+      <p className="mb-2"> <strong>8. Custom Solutions</strong></p>
+      <p className="mb-2"> Personalized menus, special dietary accommodations, and unique requests fulfilled</p>
+      
+      <h2 className="font-bold text-xl mb-3">How to Plan Your Festival Event with GG Caterers</h2>
+      
+      <h3 className="font-bold text-2xl mb-3 mt-3">Step-by-Step Festival Event Planning:</h3>
+      
+      <p className="mb-2"> <strong>Step 1: Initial Consultation (Free)</strong></p>
+      <ul className="mb-2"> 
+          <li>Discuss your festival celebration vision</li>
+          <li>Share guest count, budget, and preferences</li>
+          <li>Get expert suggestions and menu recommendations</li>
+          <li>Receive preliminary quotation</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 2: Menu Selection & Customization</strong></p>
+      <ul className="mb-2"> 
+          <li>Review menu options for your specific festival</li>
+          <li>Customize dishes according to preferences</li>
+          <li>Discuss dietary restrictions and special requirements</li>
+          <li>Finalize food presentation and service style</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 3: Food Tasting (Recommended)</strong></p>
+      <ul className="mb-2"> 
+          <li>Schedule complimentary tasting session</li>
+          <li>Sample dishes from your selected menu</li>
+          <li>Make flavor adjustments if needed</li>
+          <li>Approve final menu</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 4: Event Details & Coordination</strong></p>
+      <ul className="mb-2"> 
+          <li>Confirm venue, date, and timing</li>
+          <li>Discuss decoration and setup requirements</li>
+          <li>Coordinate with other vendors if needed</li>
+          <li>Finalize service staff count and requirements</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 5: Contract & Booking</strong></p>
+      <ul className="mb-2"> 
+          <li>Review detailed contract with all inclusions</li>
+          <li>Understand payment terms and cancellation policy</li>
+          <li>Pay booking advance to confirm dates</li>
+          <li>Receive written confirmation</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 6: Pre-Event Confirmation</strong></p>
+      <ul className="mb-2"> 
+          <li>Final guest count confirmation (3-5 days before)</li>
+          <li>Last-minute adjustments if needed</li>
+          <li>Event timeline review</li>
+          <li>Vendor coordination meeting</li>
+      </ul>
+      
+      <p className="mb-2"> <strong>Step 7: Event Day Execution</strong></p>
+      <ul className="mb-2"> 
+          <li>Timely setup and preparation</li>
+          <li>Professional food service</li>
+          <li>On-site supervision and coordination</li>
+          <li>Guest satisfaction management</li>
+      </ul>
       </>
     ),
   }
