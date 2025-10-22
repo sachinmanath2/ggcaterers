@@ -14,7 +14,7 @@ export const servicesData = [
       <>
         <p>An Indian wedding is more than just a ceremony; it's a grand festival of love, tradition, and family. At GG Caterers, we specialize in <strong>Indian Wedding Planning in Jammu and Kashmir</strong>, transforming your dream wedding into a breathtaking reality. We understand the cultural nuances and intricate details that make each wedding unique, from a vibrant Punjabi celebration to a serene Kashmiri ceremony.</p>
         <h2 className="mt-8 mb-4 text-2xl font-bold">Why Choose GG Caterers for Your Wedding?</h2>
-        <p>As leading <strong>event organizers in Jammu</strong>, we bring over 15 years of experience to the table. Our local knowledge of Jammu, Kathua, Udhampur, and Srinagar allows us to source the best venues, vendors, and materials. We blend professionalism with a personal touch, ensuring every aspect of your wedding, from the food to the decor, is nothing short of perfection. Our reputation as the <strong>best catering services in Jammu</strong> means your guests will be treated to an unforgettable culinary journey.</p>
+        <p>As leading <strong>event organizers in Jammu</strong>, we bring over 15 years of experience to the table. Our local knowledge of Jammu, Kathua, Udhampur, and Srinagar allows us to source the best venues, vendors, and materials. We blend professionalism with a personal touch, ensuring every aspect of your wedding, from the food to the decor, is nothing short of perfection. Our reputation as the <strong><a href="https://ggcaterers.com/blog/best-caterers-in-jammu-complete-guid">best catering services in Jammu</a></strong> means your guests will be treated to an unforgettable culinary journey.</p>
         <h3 className="mt-6 mb-3 text-xl font-semibold">Our Key Wedding Planning Services:</h3>
         <ul className="list-disc list-inside space-y-2">
           <li><strong>Theme Design & Decoration:</strong> Crafting stunning themes, from royal and rustic to modern and elegant.</li>
@@ -22,7 +22,7 @@ export const servicesData = [
           <li><strong>Exquisite Catering:</strong> Customized menus featuring traditional and contemporary cuisines, handled by top <strong>wedding caterers in Jammu</strong>.</li>
           <li><strong>Entertainment & Music:</strong> Arranging DJs, live bands, and traditional folk performers.</li>
           <li><strong>Guest Management:</strong> Ensuring your guests feel welcomed and comfortable throughout the celebrations.</li>
-          <li><strong>Ritual Coordination:</strong> Seamless management of all ceremonies, from Mehendi and Sangeet to the Wedding and Reception.</li>
+          <li><strong>Ritual Coordination:</strong> Seamless management of all ceremonies, from <a href="https://ggcaterers.com/blog/festival-event-management-jammu">Mehendi and Sangeet to the Wedding and Reception</a>.</li>
         </ul>
         <h3 className="mt-6 mb-3 text-xl font-semibold">The GG Caterers Advantage:</h3>
         <p>Enjoy a completely hassle-free planning experience. We offer end-to-end management, allowing you to relax and immerse yourself in the joy of your wedding. Our custom packages are designed to fit your vision and budget, providing unparalleled value without compromising on quality. Trust <strong>GG Caterers Jammu</strong> to handle every detail with precision and care.</p>
