@@ -11,6 +11,9 @@ import celebrationImg3 from '../assets/eid-catering.png';
 import celebrationImg4 from '../assets/New-Year-Food-Catering.png';
 import celebrationImg5 from '../assets/christmas-catering.jpg';
 import celebrationImg6 from '../assets/valentines-catering.png';
+import wazwanImg from '../assets/kashmiri-wazwan.png';
+import DogriThaliImg from '../assets/dogra-thali.png';
+
 const CtaSection = ({ district }) => (
   <div className="my-12 p-8 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg">
     <h2 className="text-3xl font-bold mb-4">Planning an Event in {district}?</h2>
@@ -98,6 +101,156 @@ const HallList = ({ halls }) => (
 );
 
 export const blogPosts = [
+  {
+    slug: 'kashmiri-dogri-caterers-in-jammu-kashmir',
+    title: 'Kashmiri & Dogri Caterers in Jammu Kashmir | Authentic Traditional Catering Services',
+    excerpt: 'Authentic Kashmiri & Dogri Caterers in Jammu Kashmir: Traditional Catering at Its Finest.',
+    content: (
+      <>
+        <h1>Authentic Kashmiri & Dogri Caterers in Jammu Kashmir: Traditional Catering at Its Finest</h1>    
+        <p className="mb-6 mt-4">When it comes to celebrating the rich culinary heritage of Jammu & Kashmir, nothing compares to authentic <strong>Kashmiri caterers</strong> and <strong>Dogri caterers</strong> who understand the soul of traditional cuisine. At <a href="https://www.ggcaterers.com">GG Caterers</a>, we specialize in bringing centuries-old recipes and authentic flavors to your special occasions, making us one of the <strong>best caterers in Jammu</strong> for traditional celebrations.</p>
+
+        <p className="mb-6 mt-4">Whether you're planning a grand wedding, a family gathering, or a cultural event, our expertise in both Kashmiri and Dogri cuisines ensures your guests experience the true taste of Jammu & Kashmir.</p>
+
+        <h3 className="mb-8 mt-6 text-2xl">Kashmiri Caterers: Masters of the Royal Wazwan</h3>
+        <div className="flex items-center space-x-3 mb-6">
+          <img src={wazwanImg} className="mt-5 w-2/3" alt="Authentic Kashmiri Wazwan by best Kashmiri caterers in Jammu Kashmir" /> 
+
+          <p className="mt-5 w-1/2 ">Kashmiri cuisine is renowned worldwide for its elaborate multi-course feast known as <strong>Wazwan</strong>. As experienced <strong>Kashmiri caterers in Jammu Kashmir</strong>, we preserve these ancient culinary traditions with authentic preparation methods passed down through generations.</p>
+        </div>
+        
+        <h3 className="mb-8 mt-6 text-2xl">Authentic Kashmiri Wazwan Specialties</h3>
+
+        <p className="mb-6 mt-4">Our <strong>Kashmiri catering services</strong> feature signature dishes prepared by trained Waza chefs:</p>
+
+        <ul className="mb-6 mt-4">
+            <li><strong>Rista:</strong> Delicate meatballs in aromatic red gravy, a Wazwan essential</li>
+            <li><strong>Gushtaba:</strong> Minced mutton balls in creamy yogurt gravy, the crowning dish</li>
+            <li><strong>Rogan Josh:</strong> Tender mutton cooked in rich Kashmiri spices and saffron</li>
+            <li><strong>Tabak Maaz:</strong> Crispy fried lamb ribs, a traditional delicacy</li>
+            <li><strong>Yakhni:</strong> Mild yogurt-based mutton curry with aromatic spices</li>
+            <li><strong>Aab Gosht:</strong> Milk-based mutton curry with subtle flavors</li>
+            <li><strong>Methi Maaz:</strong> Mutton with fenugreek leaves in traditional style</li>
+        </ul>
+
+        <p className="mb-6 mt-4">Each dish is prepared using authentic Kashmiri ingredients including Kashmir Mirch, saffron from Pampore, and traditional spice blends that define the region's culinary identity. As <strong>best caterers in Jammu</strong> for Kashmiri cuisine, we ensure every element of the Wazwan is presented with traditional authenticity.</p>
+
+        <h3 className="mb-8 mt-6 text-2xl">Traditional Kashmiri Vegetarian Options</h3>
+
+        <p className="mb-6 mt-4">While Wazwan is predominantly non-vegetarian, our <strong>Kashmiri caterers</strong> also excel in vegetarian preparations:</p>
+
+        <ul className="mb-8 mt-6">
+            <li><strong>Dum Aloo:</strong> Baby potatoes in yogurt-fennel gravy</li>
+            <li><strong>Chaman:</strong> Kashmiri paneer in spiced tomato gravy</li>
+            <li><strong>Haak:</strong> Collard greens cooked with mustard oil</li>
+            <li><strong>Rajma:</strong> Red kidney beans in traditional Kashmiri style</li>
+            <li><strong>Nadru Yakhni:</strong> Lotus stem in yogurt gravy</li>
+        </ul>
+
+        <h2 className="mb-8 mt-6 text-2xl">Dogri Caterers: Celebrating Authentic Dogra Heritage</h2>
+
+        <img src={DogriThaliImg} className="w-1/2" alt="Traditional Dogra cuisine by expert Dogri caterers in Jammu" />
+        <p className="mb-6 mt-4">The Dogra community of Jammu has its own distinctive culinary traditions that deserve celebration. As specialized <strong>Dogri caterers in Jammu</strong>, we bring authentic Dogra flavors to your events with recipes perfected over generations.</p>
+        <h3 className="mb-8 mt-6 text-2xl">Signature Dogra Cuisine Specialties</h3>
+
+        <p className="mb-6 mt-4">Our <strong>Dogri catering services</strong> showcase the rich heritage of Jammu region:</p>
+
+        <ul>
+            <li><strong>Maa Di Dal:</strong> Black urad dal cooked overnight with authentic Dogra spices</li>
+            <li><strong>Rajma Madra:</strong> Traditional red kidney beans in yogurt gravy</li>
+            <li><strong>Khatta Meat:</strong> Tangy mutton curry with pomegranate seeds</li>
+            <li><strong>Kalari:</strong> Indigenous Dogra cheese preparations</li>
+            <li><strong>Auriya:</strong> Mustard-based curry with fried papad dumplings</li>
+            <li><strong>Kullath/Maash:</strong> Horse gram dal, a Dogra staple</li>
+            <li><strong>Ambal:</strong> Sour pumpkin curry unique to Dogra cuisine</li>
+            <li><strong>Patande:</strong> Traditional Dogra pancakes</li>
+        </ul>
+
+        <p className="mb-6 mt-4">These dishes represent the soul of Dogra culture, prepared with local ingredients and traditional cooking techniques that have been preserved for centuries. Our <strong>event management in Jammu</strong> ensures these authentic flavors shine at your celebrations.</p>
+
+        <h2 className="mb-8 mt-6 text-2xl">Why Choose Traditional Kashmiri & Dogri Caterers?</h2>
+
+        <h3 className="mb-8 mt-6 text-3xl">✨ Authentic Cultural Experience</h3>
+        <p className="mb-6 mt-4">Serving traditional cuisine goes beyond food—it's about honoring heritage. Our <strong>catering in Jammu & Kashmir</strong> preserves cultural authenticity while meeting modern standards of hygiene and presentation.</p>
+
+        <h3  className="mb-8 mt-6 text-2xl">🍽️ Expert Preparation Methods</h3>
+        <p className="mb-6 mt-4">Traditional recipes require specific techniques, timing, and ingredients. Our experienced chefs—trained in both Kashmiri and Dogri cuisines—ensure each dish maintains its authentic taste profile.</p>
+
+        <h3 className="mb-8 mt-6 text-2xl">🎉 Perfect for Special Occasions</h3>
+        <p className="mb-6 mt-4">Whether it's a wedding, cultural festival, or family gathering, authentic regional cuisine adds meaning and memorable experiences. We're the go-to <strong>caterers in Jammu</strong> for events celebrating cultural heritage.</p>
+
+        <h3 className="mb-8 mt-6 text-2xl">💯 Quality Ingredients & Hygiene</h3>
+        <p className="mb-6 mt-4">While we honor tradition, we never compromise on quality. All ingredients are carefully sourced, and preparation follows strict food safety standards, making us trusted <strong>best caterers in Jammu</strong>.</p>
+
+        <h2 className="mb-8 mt-6 text-2xl">Complete Event Management Services</h2>
+
+        <p className="mb-6 mt-4">Beyond exceptional food, our <strong>event management in Jammu</strong> covers every aspect of your celebration:</p>
+
+        <ul className="mb-6 mt-4">
+            <li><strong>Menu Consultation:</strong> Expert guidance on traditional menu selection</li>
+            <li><strong>Authentic Presentation:</strong> Traditional serving style with copper vessels (trami)</li>
+            <li><strong>Professional Service:</strong> Trained staff understanding cultural customs</li>
+            <li><strong>Venue Coordination:</strong> We cater at <a href="https://ggcaterers.com/blog/top-marriage-halls-in-jammu">top marriage halls in Jammu</a> and venues across J&K</li>
+            <li><strong>Custom Packages:</strong> Flexible options for intimate gatherings to grand celebrations</li>
+        </ul>
+
+        <h2 className="mb-8 mt-6 text-2xl">Perfect for Every Celebration</h2>
+
+        <p className="mb-6 mt-4">Our <strong>Kashmiri caterers</strong> and <strong>Dogri caterers</strong> services are ideal for:</p>
+
+        <ul className="mb-6 mt-4">
+            <li>Traditional Kashmiri and Dogra weddings</li>
+            <li>Cultural festivals and community events</li>
+            <li>Religious ceremonies and gatherings</li>
+            <li>Family celebrations honoring heritage</li>
+            <li>Corporate events showcasing regional culture</li>
+            <li>Tourist events featuring authentic J&K cuisine</li>
+        </ul>
+        <h2 className="mb-8 mt-6 text-2xl">Why GG Caterers for Traditional Cuisine?</h2>
+
+        <p className="mb-6 mt-4">As leading <strong>caterers in Jammu</strong> specializing in regional cuisines, we offer:</p>
+
+        <ul className="mb-6 mt-4">
+            <li>✅ <strong>15+ Years Experience:</strong> Serving authentic Kashmiri and Dogri cuisine</li>
+            <li>✅ <strong>Trained Traditional Chefs:</strong> Waza chefs and Dogra cuisine experts</li>
+            <li>✅ <strong>Authentic Recipes:</strong> Preserved traditional preparation methods</li>
+            <li>✅ <strong>Quality Assurance:</strong> FSSAI certified kitchen with hygiene standards</li>
+            <li>✅ <strong>Flexible Packages:</strong> From 50 to 2000+ guests</li>
+            <li>✅ <strong>Complete Service:</strong> Planning to cleanup, we handle everything</li>
+            <li>✅ <strong>Cultural Sensitivity:</strong> Understanding of regional customs and traditions</li>
+        </ul>
+
+        <h2 className="mb-8 mt-6 text-2xl">Book Your Traditional Catering Experience</h2>
+
+        <p className="mb-6 mt-4">Planning a celebration that honors your cultural heritage? Whether you need <strong>Kashmiri caterers</strong> for an authentic Wazwan or <strong>Dogri caterers</strong> for traditional Dogra cuisine, GG Caterers brings generations of culinary expertise to your event.</p>
+
+        <p className="mb-6 mt-4">As the <strong>best caterers in Jammu</strong> for regional specialties, we ensure your guests experience the true flavors of Jammu & Kashmir. Our comprehensive <strong>event management</strong> services mean you can relax and enjoy your celebration while we handle every detail.</p>
+
+        <div className="my-12 p-8 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg">
+            <h3>📞 Contact GG Caterers Today</h3>
+            <p><strong>Experience authentic Kashmiri & Dogri cuisine at your next event!</strong></p>
+            <ul>
+                <li>📞 <strong>Phone:</strong> +917889631171</li>
+                <li>📧 <strong>Email:</strong> gouravgupta39057@gmail.com</li>
+                <li>📍 <strong>Location:</strong> CAMP GOLE GUJRAL, BEHIND RK RESORT, Jammu, J&K</li>
+                <li>🌐 <strong>Website:</strong> <a href="https://www.ggcaterers.com">www.ggcaterers.com</a></li>
+            </ul>
+            <p className="mt-6"><strong>Free Consultation | Complimentary Tasting | Customized Menus</strong></p>
+        </div>
+
+        <p className="mb-6 mt-4"><strong>Related Articles:</strong></p>
+        <ul className="mb-6 mt-4">
+            <li><a href="https://www.ggcaterers.com/blog/top-marriage-halls-in-jammu">Top Marriage Halls in Jammu for Weddings & Events</a></li>
+            <li><a href="https://www.ggcaterers.com/blog/best-caterers-in-jammu">Best Caterers in Jammu - Complete Guide</a></li>
+            <li><a href="https://www.ggcaterers.com/blog/wedding-catering-cost">Wedding Catering Cost in Jammu - Price Guide</a></li>
+        </ul>
+
+        <p className="mb-6 mt-4 text-2xl">
+            <em>Preserve your cultural heritage with authentic Kashmiri & Dogri catering in Jammu Kashmir. Trust the best caterers in Jammu for traditional excellence!</em>
+        </p>
+      </>
+    ),
+  },
   {
     slug: 'top-marriage-halls-in-kathua',
     title: 'Top Marriage Halls in Kathua for Weddings & Events',
