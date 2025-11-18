@@ -69,7 +69,7 @@ const jammuHalls = [
   { name: "Suncity Farms", location: "Jammu area", contact: "Via Mandap listing", capacity: "400 guests", why: "Farm/lawn style venue for weddings; more open feel.", photo: "Available online" },
   { name: "Hariplaza The Banquet", location: "Jammu", contact: "Via Mandap listing", capacity: "500 guests", why: "Budget friendly banquet hall with decent capacity.", photo: "Available online" },
   { name: "Aashirwad Banquet Hall", location: "Jammu", contact: "Via Mandap listing", capacity: "300 guests", why: "Smaller hall good for mid-range weddings and receptions.", photo: "Available online" },
-  { name: "Celebration Banquet Resort", location: "Marble Market, Near Dilli Morh, Jammu - 180020", contact: "+91-91034-01101 / +91-88993-32575", capacity: "Medium-Large (resort + banquet hall)", why: "Well-located resort style venue that combines banquet hall + resort amenities. :contentReference[oaicite:0]{index=0}", photo: "Available online"},
+  { name: "Celebration Banquet Resort", location: "Marble Market, Near Dilli Morh, Jammu - 180020", contact: "+91-91034-01101 / +91-88993-32575", capacity: "Medium-Large (resort + banquet hall)", why: "Well-located resort style venue that combines banquet hall + resort amenities.", photo: "Available online"},
   { name: "Reen Palace – Banquet Hall", location: "MRCM+4WF, Karan Bagh Road, Chatha, Gadigarh, Jammu - 181101", contact: "+91-9419140686", capacity: "Large (suitable for big weddings) :contentReference[oaicite:1]{index=1}", why: "Spacious hall in a convenient location for large guest counts.", photo: "Available online"},
   { name: "Kingsville Banquet & Resort", location: "Trikuta Nagar, Jammu", contact: "Via venue website", capacity: "Large (banquet + green lawn) :contentReference[oaicite:2]{index=2}", why: "Royally styled hall & lawn; good for high-end weddings.", photo: "Available online"},
   { name: "The Grand Dreams Banquet – Jammu", location: "Near Heritage School Ext, Sector E, Sainik Colony Extension, Jammu - 180011", contact: "+91-90860-33000", capacity: "Medium-Large :contentReference[oaicite:3]{index=3}", why: "Well rated among user reviews; good location and facilities.", photo: "Available online"},
@@ -86,7 +86,7 @@ const sambaHalls = [
   { name: "Maya Palace Banquet Hall", location: "Rehiyan, Samba", contact: "Via Justdial listing", capacity: "Medium", why: "Banquet hall in Rehiyan area of Samba district", photo: "Available online" },
   { name: "RS Resort Banquet", location: "Abtal Katlan Rehiyan, Samba", contact: "Via directory listing", capacity: "Medium", why: "Resort-style banquet venue in Samba district", photo: "Available online" },
   { name: "KB Resort Banquet Hall", location: "Ward No.1, Samba Tehsil Kaloha, Samba", contact: "Via listing", capacity: "Medium", why: "Local resort and banquet hall in Samba Tehsil; convenient for zone events", photo: "Available online" },
-  { name: "M.K Farms", location: "300 Meters from KFC, Near Toll Plaza Sukhyaini Talab, Sarore, Samba 181133", contact: "+91-9906012435", capacity: "Medium-Large", why: "Garden-style banquet in Samba region, popular for weddings and functions. :contentReference[oaicite:0]{index=0}", photo: "Available online"},
+  { name: "M.K Farms", location: "300 Meters from KFC, Near Toll Plaza Sukhyaini Talab, Sarore, Samba 181133", contact: "+91-9906012435", capacity: "Medium-Large", why: "Garden-style banquet in Samba region, popular for weddings and functions", photo: "Available online"},
   { name: "Blue Moon Banquet Hall", location: "National Highway, Jakh, Vijaypur, Samba District, Jammu & Kashmir 181133", contact: "+91-90860-35550 / +91-90860-35551", capacity: "Large banquet hall", why: "Prominent hall on NH-1A in Samba; good for big gatherings. :contentReference[oaicite:1]{index=1}", photo: "Available online"},
   { name: "Aureum Grand (Meetings & Events Banquet)", location: "Jammu-Pathankot Highway (NH-44), Thandi Khui (adj. Radha Soami Satsang Beas), District Samba, Jammu 184120", contact: "+91-1923-354545", capacity: "Large, hotel-style banquet", why: "Hotel banquet facility in Samba district, ideal for weddings and corporate events. :contentReference[oaicite:2]{index=2}", photo: "Available online" },
   { name: "Ishant Grand Banquet Hall", location: "Hotel Ishant, Jammu-Pathankot Highway, Samba district, Jammu & Kashmir", contact: "(see listing) +--", capacity: "Medium-Large", why: "Multi-function banquet area in Samba district with good amenities. :contentReference[oaicite:3]{index=3}", photo: "Available online"},
@@ -113,11 +113,21 @@ const srinagarHalls = [
   { name: "Hilltop Palace Banquet Hall", location: "Nowgam Bypass, Srinagar, Jammu & Kashmir", contact: "Via listings", capacity: "Medium-Large", why: "Modern banquet hall, easy highway access", photo: "Available online"},
   { name: "Heemal Hotel & Banquet", location: "Boulevard Road, Dal Lake, Srinagar", contact: "+91-94190-22235", capacity: "Medium", why: "Government-run venue with scenic view and trusted services", photo: "Available online" },
   { name: "Dawat Banquet Hall", location: "Batamaloo, Srinagar, JK 190009", contact: "Available on local directory", capacity: "Medium", why: "Affordable hall for community weddings; well connected area", photo: "Available online" },
-  { name: "Lala Rukh Banquet & Conference Hall", location: "Rajbagh, Srinagar, Jammu & Kashmir 190008", contact: "+91-70060-32478", capacity: "Medium-Large", why: "Elegant décor, near city center, popular for both weddings and receptions", photo: "Available online" }
+  { name: "Lala Rukh Banquet & Conference Hall", location: "Rajbagh, Srinagar, Jammu & Kashmir 190008", contact: "+91-70060-32478", capacity: "Medium-Large", why: "Elegant décor, near city center, popular for both weddings and receptions", photo: "Available online" },
+  { name: "Royal Retreat Banquet Hall",location: "Aramwari, Rajbagh, Srinagar, J&K 190008",contact: "Available online",capacity: "Medium-Large",why: "Known for elegant interiors and central location near Rajbagh.",photo: "Available online"},
+  { name: "Shelter Palace Banquet",location: "Bemina Bypass, Srinagar, J&K 190018",contact: "Available via local listings",capacity: "Large hall",why: "Spacious banquet frequently used for large gatherings.",photo: "Available online"},
+  { name: "Naseem Bagh Banquet & Lawns",location: "Hazratbal, near Kashmir University, Srinagar",contact: "Via local directory",capacity: "Large lawn + hall",why: "Scenic, green outdoor setting suitable for big weddings.",photo: "Available online"},
+  { name: "Shahi Marriage Hall",location: "Khanyar, near Dastgeer Sahib Shrine, Srinagar",contact: "Available online",capacity: "Medium",why: "A well-known community wedding hall in Old Srinagar.",photo: "Available online"},
+  { name: "Regal Banquet Hall",location: "Nawpora, Safa Kadal, Srinagar",contact: "Available via directory",capacity: "Medium-Large",why: "Budget-friendly hall with good layout for receptions.",photo: "Available online"},
+  { name: "Grand Celebration Banquet",location: "Nowhatta, Srinagar, J&K",contact: "Available online",capacity: "Medium",why: "Popular pick for mid-sized marriage events in Downtown.",photo: "Available online"},
+  { name: "RCC Plaza Banquet Hall",location: "Hyderpora Chowk, Srinagar, JK 190014",contact: "Available via Justdial",capacity: "Large",why: "Modern banquet facility with strong reputation in Hyderpora.",photo: "Available online"},
+  { name: "Wonderland Wedding Hall",location: "Sanat Nagar, Srinagar",contact: "Available online",capacity: "Medium-Large",why: "Spacious & beautifully designed hall for upscale weddings.",photo: "Available online"},
+  { name: "Arco Palace Banquet",location: "Bemina, opposite JK Bank, Srinagar",contact: "Available via online listing",capacity: "Medium",why: "Popular mid-budget hall often used for receptions.",photo: "Available online"},
+  { name: "Shahenshah Palace",location: "Boulevard Road, near Dal Lake, Srinagar",contact: "Via hotel directory",capacity: "Large",why: "Hotel banquet hall with Dal Lake view, ideal for premium weddings.",photo: "Available online"}
 ];
 
 const HallList = ({ halls }) => (
-  <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
     {halls.map((hall, index) => (
         <div key={index} className="mb-4 p-6 border rounded-xl shadow-sm bg-white">
           <h3 className="font-bold text-2xl mb-3 mt-3">{index + 1}. {hall.name}</h3>
@@ -126,7 +136,7 @@ const HallList = ({ halls }) => (
             <li><span className="font-semibold">☎️ Contact:</span> {hall.contact}</li>
             <li><span className="font-semibold">💒 Capacity:</span> {hall.capacity}</li>
             <li><span className="font-semibold">✨ Why choose:</span> {hall.why}</li>
-            <li><span className="font-semibold">🖼️ Photo:</span> {hall.photo}</li>
+            {/* <li><span className="font-semibold">🖼️ Photo:</span> {hall.photo}</li> */}
           </ul>
       </div>
     ))}
@@ -274,8 +284,8 @@ export const blogPosts = [
         <p className="mb-6 mt-4"><strong>Related Articles:</strong></p>
         <ul className="mb-6 mt-4">
             <li><a href="https://www.ggcaterers.com/blog/top-marriage-halls-in-jammu">Top Marriage Halls in Jammu for Weddings & Events</a></li>
-            <li><a href="https://www.ggcaterers.com/blog/best-caterers-in-jammu">Best Caterers in Jammu - Complete Guide</a></li>
-            <li><a href="https://www.ggcaterers.com/blog/wedding-catering-cost">Wedding Catering Cost in Jammu - Price Guide</a></li>
+            <li><a href="https://www.ggcaterers.com/blog/best-caterers-in-jammu-complete-guid">Best Caterers in Jammu - Complete Guide</a></li>
+            <li><a href="https://www.ggcaterers.com/blog/festival-event-management-jammu">Festival Event Management in Jammu | Diwali, Eid, Christmas, New Year Catering Services</a></li>
         </ul>
 
         <p className="mb-6 mt-4 text-2xl">
@@ -291,11 +301,13 @@ export const blogPosts = [
     content: (
       <>
         <p className="mb-6">Kathua, known for its serene beauty and cultural heritage, is a wonderful place to host weddings and special events. Choosing the right venue is crucial for a memorable celebration. This blog covers the most famous marriage halls in Kathua to help you find the perfect spot for your big day.</p>
-        <h2 className="mt-8 mb-6">List of Famous Marriage Halls in Kathua</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">We specialize in organizing beautiful and memorable Roka and Ring Ceremony functions</h2>
+        <p className="mb-6">We specialize in organizing beautiful and memorable Roka and Ring Ceremony functions, designed to celebrate the beginning of a new journey for the couple. Our team creates elegant setups that perfectly match the cultural traditions and modern trends of today’s engagements. From stunning décor, floral arrangements, stage setups, and lighting to delicious catering, live counters, and guest management, we ensure every detail reflects the significance of this special day. Our menus include a wide range of premium dishes, snacks, and beverages to delight your guests. Whether you prefer a simple, intimate gathering or a grand celebration, we bring warmth, elegance, and seamless coordination to your Roka/Ring Ceremony. With our professional service and thoughtful planning, your engagement function becomes a beautiful and stress-free celebration for your family.</p>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">List of Famous Marriage Halls in Kathua</h2>
         <p className="mb-6">Here are some of the top-rated wedding venues and banquet halls in Kathua, perfect for any celebration.</p>
         <HallList halls={kathuaHalls} />
         <CtaSection district="Kathua" />
-        <h2 className="mt-8 mb-6">Conclusion: Your Perfect Event Partner</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Conclusion: Your Perfect Event Partner</h2>
         <Conclusion />
       </>
     ),
@@ -307,11 +319,13 @@ export const blogPosts = [
     content: (
       <>
         <p className="mb-6">Jammu, the City of Temples, is a prime destination for grand weddings and events. With a mix of traditional and modern venues, there's something for everyone. This guide will walk you through the best marriage halls in Jammu.</p>
-        <h2 className="mt-8 mb-6">List of Famous Marriage Halls in Jammu</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">We specialize in authentic Dogri food</h2>
+        <p className="mb-6">We specialize in authentic Dogri food, bringing the rich flavors and traditional recipes of the Duggar region to your events. Our Dogri cuisine celebrates the warmth, culture, and heritage of Jammu with dishes prepared using age-old methods and locally inspired ingredients. From flavorful Madra, Khatta Meat, and Ambal to traditional Dal Chawal, Roti, and Tawa specialities, every dish reflects true Dogra taste and homestyle comfort. Whether it’s a wedding, family gathering, pooja, or community event, our Dogri food catering offers a soulful experience that connects you to the roots of Jammu. We take pride in serving fresh, hygienic, and delicious Dogri meals that your guests will love and remember.</p>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">List of Famous Marriage Halls in Jammu</h2>
         <p className="mb-6">This is a placeholder list. We are gathering information for the best venues in Jammu. Stay tuned!</p>
         <HallList halls={jammuHalls} />
         <CtaSection district="Jammu" />
-        <h2 className="mt-8 mb-6">Conclusion: Your Perfect Event Partner</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Conclusion: Your Perfect Event Partner</h2>
         <Conclusion />
       </>
     ),
@@ -323,11 +337,13 @@ export const blogPosts = [
     content: (
       <>
         <p className="mb-6">Srinagar, the paradise on Earth, offers some of the most picturesque settings for a dream wedding. Imagine tying the knot with the stunning Dal Lake or majestic mountains as your backdrop. Here are some of the best wedding venues in Srinagar.</p>
-        <h2 className="mt-8 mb-6">List of Famous Marriage Halls in Srinagar</h2>
+        <h2 className="mt-3 mb-4 text-2xl font-bold">We Specialized in Kashmiri Wazwan:</h2>
+        <p className="mb-4">Kashmiri Wazwan is the heart and soul of Kashmiri culture, celebrated as one of the finest and most royal cuisines in India. This elaborate multi-course feast is prepared by master chefs called Wazas, who follow age-old recipes passed down through generations. Wazwan features iconic dishes like Rista, Rogan Josh, Gushtaba, Tabak Maaz, Dani Phoul, and Yakhni, each cooked with rich spices, ghee, and traditional techniques that bring out incredible flavor. Served on a copper trami and shared by four people, Wazwan symbolizes unity, respect, and togetherness. No Kashmiri wedding or celebration is complete without this grand feast, making it a timeless representation of Kashmiri identity, warmth, and hospitality.</p>
+        <h2 className="mt-3 mb-3 text-2xl font-bold">List of Famous Marriage Halls in Srinagar</h2>
         <p className="mb-6">This is a placeholder list. We are gathering information for the best venues in Srinagar. Stay tuned!</p>
         <HallList halls={srinagarHalls} />
         <CtaSection district="Srinagar" />
-        <h2 className="mt-8 mb-6">Conclusion: Your Perfect Event Partner</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Conclusion: Your Perfect Event Partner</h2>
         <Conclusion />
       </>
     ),
@@ -339,11 +355,13 @@ export const blogPosts = [
     content: (
       <>
         <p className="mb-6">Samba District, often called the “Gateway of Jammu and Kashmir,” is known for its vibrant culture, historical forts, and welcoming atmosphere. Located along the Jammu–Pathankot National Highway, Samba has become a growing destination for weddings and grand celebrations. With a mix of modern banquet halls, open-air farms, and well-connected venues, it offers the perfect blend of tradition and convenience.</p>
-        <h2 className="mt-8 mb-6">List of Famous Marriage Halls in Samba</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">We specialize in hosting and managing elegant cocktail functions</h2>
+        <p className="mb-6">We specialize in hosting and managing elegant cocktail functions designed to impress your guests with style, ambiance, and exceptional service. Whether it’s a pre-wedding cocktail, corporate mixer, birthday celebration, or private gathering, we curate the perfect atmosphere with premium beverages, creative mocktails, live counters, and gourmet finger foods. Our team ensures seamless event planning, from décor and lighting to music and seating arrangements, making your cocktail event truly memorable. With professional bartenders, curated drink menus, and stylish presentation, we bring a modern and vibrant touch to your celebrations. Whether you prefer a classy, intimate setup or a lively, party-style theme, we deliver a sophisticated experience that sets the right tone for your event.</p>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">List of Famous Marriage Halls in Samba</h2>
         <p className="mb-6">This is a placeholder list. We are gathering information for the best venues in Samba. Stay tuned!</p>
         <HallList halls={sambaHalls} />
         <CtaSection district="Srinagar" />
-        <h2 className="mt-8 mb-6">Conclusion: Your Perfect Event Partner</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Conclusion: Your Perfect Event Partner</h2>
         <Conclusion />
       </>
     ),
@@ -455,13 +473,13 @@ export const blogPosts = [
         
         <p className="mb-6 mt-4">This comprehensive guide will help you understand what makes the best caterers in Jammu stand out, what to look for, and how to make the right choice for your special occasion.</p>
 
-        <h2 className="mt-8 mb-6">Why Finding the Best Caterer in Jammu Matters</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Why Finding the Best Caterer in Jammu Matters</h2>
 
         <p className="mb-6">Food is the heart of any celebration in Jammu. Whether it's a traditional Kashmiri wedding, a modern corporate event, or an intimate family gathering, guests will remember the quality and taste of the food long after the event ends.</p>
 
         <p className="mb-6">The best caterers in Jammu don't just serve food—they create experiences, handle logistics seamlessly, and ensure your event runs smoothly so you can enjoy your special day stress-free.</p>
 
-        <h2 className="mt-8 mb-6">What Makes the Best Caterers in Jammu Stand Out?</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">What Makes the Best Caterers in Jammu Stand Out?</h2>
 
         <h3 className="font-bold text-2xl mb-3 mt-3">1. Diverse Menu Options</h3>
 
@@ -791,7 +809,7 @@ export const blogPosts = [
             <li>Confirm cleanup is completed before they leave</li>
         </ul>
 
-        <h2 className="mt-8 mb-6">Top Questions to Ask When Hiring Caterers in Jammu</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Top Questions to Ask When Hiring Caterers in Jammu</h2>
 
         <h3 className="font-bold text-2xl mb-3 mt-3">About Experience and Credentials</h3>
         <ol className="mb-2">
@@ -846,7 +864,7 @@ export const blogPosts = [
             <li>How do you handle complaints or issues during the event?</li>
         </ol>
 
-        <h2 className="mt-8 mb-6">Red Flags to Avoid When Choosing Caterers in Jammu</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Red Flags to Avoid When Choosing Caterers in Jammu</h2>
 
         <h3 className="font-bold text-2xl mb-3 mt-3">❌ Warning Signs of Unreliable Caterers:</h3>
 
@@ -898,7 +916,7 @@ export const blogPosts = [
 
         <p className="mb-6"><strong>Trust your instincts!</strong> If something feels off, keep looking. The best caterers in Jammu are professional, transparent, and eager to earn your trust.</p>
 
-        <h2 className="mt-8 mb-6">What Sets GG Caterers Apart as One of the Best Caterers in Jammu</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">What Sets GG Caterers Apart as One of the Best Caterers in Jammu</h2>
 
         {/* <img src="your-image-path/gg-caterers-team.jpg" alt="GG Caterers - Best caterers in Jammu team photo" style="width:100%; max-width:800px; height:auto;"> */}
 
@@ -983,13 +1001,13 @@ export const blogPosts = [
 
         <p className="mb-6">That's exactly what we strive to deliver with every event we cater.</p>
 
-        <h2 className="mt-8 mb-6">Cost Expectations: What Do the Best Caterers in Jammu Charge?</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Cost Expectations: What Do the Best Caterers in Jammu Charge?</h2>
 
         <p className="mb-6">Understanding pricing helps you budget realistically</p>
 
         <p className="mb-6"><strong>Remember:</strong> The best caterers in Jammu offer packages across all price ranges. "Best" doesn't always mean "most expensive"—it means best fit for your needs, budget, and expectations.</p>
 
-        <h2 className="mt-8 mb-6">Seasonal Considerations for Catering in Jammu</h2>
+        <h2 className="mt-8 mb-6 text-2xl font-bold">Seasonal Considerations for Catering in Jammu</h2>
 
         <h3 className="font-bold text-2xl mb-3 mt-3">Peak Wedding Season (October-March)</h3>
 
