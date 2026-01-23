@@ -144,6 +144,53 @@ const HallList = ({ halls }) => (
 );
 
 export const blogPosts = [
+    {
+    slug: 'gold-record-highs-what-it-means-for-indian-weddings',
+    title: 'Gold at Record Highs: What It Means for Indian Weddings',
+    excerpt: 'Gold has always been a symbol of prosperity in Indian weddings, but record-high gold prices are changing how families plan their big day. From bridal jewelry choices to wedding budgets and gifting traditions, rising gold rates are reshaping modern Indian weddings in meaningful ways.',
+    content: (
+      <>
+        <h3 className="mb-8 mt-6 text-2xl">Gold at Record Highs: What It Means for Indian Weddings</h3>
+
+        <p className="mb-6 mt-4">
+        Gold has always been an integral part of <strong>Indian weddings</strong>, symbolizing prosperity, tradition, and family heritage. From bridal jewelry to wedding gifts, gold plays a central role in almost every ceremony. However, with <strong>gold prices touching record highs</strong>, Indian weddings are witnessing noticeable changes in planning, spending, and traditions.
+        </p>
+
+        <p className="mb-6 mt-4">
+        The sharp rise in gold prices has significantly impacted wedding budgets, especially for middle-class families. Bridal jewelry, which once included heavy necklaces, bangles, and elaborate sets, is now being planned more thoughtfully. Many families are opting for lighter designs, fewer pieces, or mixing gold with diamonds and other precious stones to balance cost without compromising on elegance.
+        </p>
+
+        <h3 className="mb-8 mt-6 text-2xl">Changing Bridal Jewelry Trends</h3>
+
+        <p className="mb-6 mt-4">
+        Traditionally, gold jewelry was considered a long-term investment as well as an emotional asset. Today, rising prices have encouraged brides to reuse heirloom jewelry, rent designer pieces, or choose minimalist styles that offer beauty with affordability. These changing trends reflect a shift toward practicality while still respecting cultural values.
+        </p>
+
+        <h3 className="mb-8 mt-6 text-2xl">Impact on Wedding Budgets and Celebrations</h3>
+
+        <p className="mb-6 mt-4">
+        As gold consumes a larger portion of the wedding budget, families are adjusting expenses in other areas. Guest lists are becoming more curated, venues are selected more carefully, and there is a growing focus on meaningful celebrations rather than sheer extravagance. Couples are now investing more in experiences such as décor, catering, photography, and entertainment rather than excessive material display.
+        </p>
+
+        <h3 className="mb-8 mt-6 text-2xl">Changing Gifting Traditions</h3>
+
+        <p className="mb-6 mt-4">
+        The rise in gold prices has also influenced wedding gifting practices. Gold coins and ornaments are slowly being replaced with cash gifts, digital transfers, silver items, or personalized presents. This shift reflects evolving social preferences where practicality and emotional value matter more than traditional expectations.
+        </p>
+
+        <h3 className="mb-8 mt-6 text-2xl">A Shift Toward Thoughtful Weddings</h3>
+
+        <p className="mb-6 mt-4">
+        Despite these changes, gold continues to hold deep emotional and cultural significance in Indian weddings. Families may buy less gold, but the tradition remains strong. The rising prices have simply encouraged smarter planning, conscious spending, and a focus on quality over quantity.
+        </p>
+
+        <p className="mb-6 mt-4">
+        In conclusion, while record-high gold prices have reshaped wedding choices, Indian weddings continue to evolve without losing their essence. Today’s celebrations are becoming more balanced, meaningful, and experience-driven, proving that love, tradition, and togetherness matter far more than the weight of gold.
+        </p>
+
+      </>
+    ),
+  },
   {
     slug: 'kashmiri-dogri-caterers-in-jammu-kashmir',
     title: 'Kashmiri & Dogri Caterers in Jammu Kashmir | Authentic Traditional Catering Services',
