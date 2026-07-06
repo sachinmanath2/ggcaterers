@@ -14,10 +14,15 @@ import deco4 from '../assets/deco4.jpeg';
 import corporate1 from '../assets/corporate1.jpg';
 import corporate2 from '../assets/corporate2.png';
 
+import dest1 from '../assets/des1.jpeg';
+import dest2 from '../assets/des2.jpeg';
+import dest3 from '../assets/des3.jpeg';
+import dest4 from '../assets/des4.jpeg';
+import dest5 from '../assets/des5.jpeg';
 
 const galleryImages = [
-  { id: 1, src: wedding1 , category: 'Wedding', alt: 'Elegant Indian wedding mandap by caterers in Jammu Kashmir', description: 'Elegant Indian wedding mandap with golden drapes and floral decorations' },
-  { id: 2, src: wedding2, category: 'Wedding', alt: 'Beautiful bride at a wedding organized in Jammu', description: 'Beautiful Indian bride in traditional wedding attire' },
+  { id: 1, src: dest2, category: 'Wedding', alt: 'Destination wedding in Jammu and Kashmir', description: 'Best Destination Wedding Planner & Caterer in Jammu & Kashmir' },
+  { id: 2, src: dest4, category: 'Wedding', alt: 'Celebrate Your Dream Destination Wedding in Jammu & Kashmir with GG Caterers', description: 'Celebrate Your Dream Destination Wedding in Jammu & Kashmir with GG Caterers' },
   { id: 3, src: corporate1, category: 'Corporate', alt: 'Professional corporate event setup by event organizers in Jammu', description: 'Modern corporate event with people networking in a conference hall' },
   { id: 4, src: deco1, category: 'Decoration', alt: 'Stunning floral arrangements for a Jammu wedding', description: 'Vibrant marigold and rose flower decorations for an Indian wedding ceremony' },
   { id: 5, src: catering3, category: 'Catering', alt: 'Food served in marriage caterers in Jammu Kashmir', description: 'Delicious Indian food buffet with various dishes for a celebration' },
@@ -27,7 +32,10 @@ const galleryImages = [
   { id: 9, src: deco2, category: 'Decoration', alt: 'Exquisite table setting for an Indian wedding reception', description: 'Elegant dining table setting with golden cutlery for a wedding reception' },
   { id: 10, src: deco3, category: 'Decoration', alt: 'Exquisite table setting for an Indian wedding reception', description: 'Elegant dining table setting with golden cutlery for a wedding reception' },
   { id: 11, src: catering1, category: 'Catering', alt: 'Elaborate wedding feast by marriage caterers in Jammu Kashmir', description: 'Delicious Indian food buffet with various dishes for a celebration' },
-  { id: 12, src: deco4, category: 'Decoration', alt: 'Mata ka Jagrata in Indian wedding', description: 'Mata ka Jagrata in Indian ' },
+  { id: 12, src: deco4, category: 'Decoration', alt: 'Mata ka Jagrata in Indian wedding', description: 'Mata ka Jagrata in Indian ' },  
+  { id: 14, src: wedding1 , category: 'Wedding', alt: 'Elegant Indian wedding mandap by caterers in Jammu Kashmir', description: 'Elegant Indian wedding mandap with golden drapes and floral decorations' },
+  { id: 13, src: wedding2, category: 'Wedding', alt: 'Beautiful bride at a wedding organized in Jammu', description: 'Beautiful Indian bride in traditional wedding attire' },
+  
 ];
 
 const Gallery = () => {

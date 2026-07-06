@@ -14,6 +14,13 @@ import celebrationImg6 from '../assets/valentines-catering.png';
 import wazwanImg from '../assets/kashmiri-wazwan.png';
 import DogriThaliImg from '../assets/dogra-thali.png';
 
+import dest1 from '../assets/des1.jpeg';
+import dest2 from '../assets/des2.jpeg';
+import dest3 from '../assets/des3.jpeg';
+import dest4 from '../assets/des4.jpeg';
+import dest5 from '../assets/des5.jpeg';
+
+
 const CtaSection = ({ district }) => (
   <div className="my-12 p-8 rounded-2xl bg-gradient-to-r from-orange-500 to-red-600 text-white shadow-lg">
     <h2 className="text-3xl font-bold mb-4">Planning an Event in {district}?</h2>
@@ -144,6 +151,72 @@ const HallList = ({ halls }) => (
 );
 
 export const blogPosts = [
+    {
+        slug: 'destination-wedding-jammu-kashmir',
+        title: 'Why Choose GG Caterers for Your Destination Wedding in Jammu & Kashmir',
+        excerpt: 'Planning a destination wedding in Jammu & Kashmir? Discover why GG Caterers is the trusted choice for complete wedding planning, authentic cuisine, stunning décor, and unforgettable celebrations across Jammu, Srinagar, Gulmarg, Pahalgam, and beyond.',
+        content: (
+            <>
+            <h1>Why Choose GG Caterers for Your Destination Wedding in Jammu & Kashmir?</h1>
+
+            <p className="mb-6 mt-4">
+            A <strong>destination wedding in Jammu & Kashmir</strong> is more than just a celebration—it's an unforgettable experience surrounded by breathtaking mountains, lush valleys, historic temples, and picturesque lakes. Whether you dream of exchanging vows against the serene backdrop of Dal Lake in Srinagar or hosting a traditional wedding in the beautiful landscapes of Jammu, <strong>GG Caterers</strong> is your trusted partner for planning and executing a flawless destination wedding.
+            </p>
+            
+            <p className="mb-6 mt-4">
+            With years of experience in <strong>wedding catering and event management in Jammu & Kashmir</strong>, we understand the unique traditions, venues, and hospitality that make every celebration truly special. Our dedicated team ensures that every detail, from catering to décor, is handled with professionalism, allowing you and your family to enjoy every precious moment.
+            </p>
+
+            <img src={dest4} className="mt-5 w-2/3" alt="Destination Wedding in Jammu & Kashmir" /> 
+
+            <h3 className="mb-8 mt-6 text-2xl">Complete Destination Wedding Planning</h3>
+
+            <p className="mb-6 mt-4">
+            Planning a wedding from another city or country can be challenging. GG Caterers provides complete destination wedding planning services, taking care of venue selection, catering, decoration, guest hospitality, entertainment, transportation, and event coordination. Whether your guests are arriving from different parts of India or overseas, we ensure a smooth and stress-free experience from arrival to farewell.
+            </p>
+
+            <h3 className="mb-8 mt-6 text-2xl">Authentic Cuisine Your Guests Will Remember</h3>
+
+            <p className="mb-6 mt-4">
+            Food is one of the highlights of every wedding, and we take pride in delivering exceptional dining experiences. Our expert chefs prepare authentic <strong>Kashmiri Wazwan</strong>, traditional <strong>Dogri cuisine</strong>, North Indian, Mughlai, Punjabi, Chinese, Continental, South Indian, and live food counters to suit every taste. Every dish is prepared using fresh ingredients and served with the highest standards of hygiene and hospitality, ensuring your guests leave with unforgettable memories.
+            </p>
+
+            <h3 className="mb-8 mt-6 text-2xl">Beautiful Venues Across Jammu & Kashmir</h3>
+
+            <p className="mb-6 mt-4">
+            Jammu & Kashmir offers some of India's most spectacular wedding destinations. From luxury hotels and elegant banquet halls to scenic gardens, resorts, heritage properties, and riverside venues, we help you choose the perfect location based on your guest count, budget, and wedding theme. Our local expertise enables us to recommend venues that perfectly match your vision while simplifying all the planning.
+            </p>
+
+            <h3 className="mb-8 mt-6 text-2xl">Customized Wedding Packages</h3>
+
+            <p className="mb-6 mt-4">
+            Every couple has a unique story, and every wedding deserves a personalized touch. GG Caterers offers flexible wedding packages that can be tailored to your preferences, whether you're planning an intimate family gathering or a grand multi-day celebration. From elegant floral décor and designer stage setups to lighting, music, photography, entertainment, and luxury catering, every element is carefully customized to create the wedding of your dreams.
+            </p>
+
+            <h3 className="mb-8 mt-6 text-2xl">Why Couples Choose GG Caterers</h3>
+
+            <ul className="list-disc ml-8 mb-6">
+            <li>Complete wedding planning and event management.</li>
+            <li>Authentic Kashmiri Wazwan and traditional Dogri cuisine.</li>
+            <li>Professional chefs, trained service staff, and event coordinators.</li>
+            <li>Beautiful décor and customized wedding themes.</li>
+            <li>Transparent pricing with flexible packages.</li>
+            <li>Extensive experience managing weddings across Jammu & Kashmir.</li>
+            <li>Personalized service from planning until the final farewell.</li>
+            </ul>
+
+            <h3 className="mb-8 mt-6 text-2xl">Create Memories That Last Forever</h3>
+
+            <p className="mb-6 mt-4">
+            Your wedding is one of life's most cherished milestones, and it deserves nothing less than perfection. At <strong>GG Caterers</strong>, we combine exceptional catering, creative event planning, and warm hospitality to create celebrations that your family and guests will remember for years to come. Whether you're planning a destination wedding in <strong>Jammu, Srinagar, Gulmarg, Pahalgam, Sonamarg, Patnitop, Bhaderwah, or anywhere in Jammu & Kashmir</strong>, our experienced team is ready to bring your vision to life with elegance, authenticity, and attention to every detail.
+            </p>
+
+            <p className="mb-6 mt-4">
+            <strong>Ready to plan your dream destination wedding?</strong> Contact <a href="https://www.ggcaterers.com">GG Caterers</a> today and let us transform your special day into a beautiful celebration filled with delicious cuisine, stunning décor, and unforgettable memories.
+            </p>
+            </>
+        ),
+    },
     {
     slug: 'gold-record-highs-what-it-means-for-indian-weddings',
     title: 'Gold at Record Highs: What It Means for Indian Weddings',
