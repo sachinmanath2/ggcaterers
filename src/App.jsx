@@ -11,7 +11,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import ServicePage from './pages/ServicePage';
 import ScrollToTop from './components/ScrollToTop';
-
+import QuotePage from "./pages/QuotePage";
 
 function App() {
   const location = useLocation();
@@ -33,6 +33,7 @@ function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             <Route path="/services/:slug" element={<ServicePage />} />
+            <Route path="/get-quote" element={<QuotePage />} />
           </Routes>
         </AnimatePresence>      
       <Footer />

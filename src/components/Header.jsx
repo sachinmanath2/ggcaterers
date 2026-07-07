@@ -34,6 +34,7 @@ const Header = () => {
     { name: 'Gallery', path: '/#gallery' },
     { name: 'Blog', path: '/blog' },
     { name: 'Contact', path: '/#contact' },
+    { name: 'Build Your Menu', path: '/get-quote' },
   ];
 
   const handleNavClick = (e, path) => {
