@@ -59,12 +59,14 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <Button
+            {/* <Button
               onClick={scrollToContact}
               className="bg-gold hover:bg-gold-dark text-white px-8 py-3 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105"
-            >
+            > */}
+              <a href="/get-quote" className="bg-gold hover:bg-gold-dark text-white px-8 py-2 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
               Get Quote
-            </Button>
+            </a>
+            {/* </Button> */}
             <Button
               onClick={() => document.getElementById('gallery').scrollIntoView({ behavior: 'smooth' })}
               variant="outline"
