@@ -14,6 +14,10 @@ import {
     Candy,
     Apple,
     SaladIcon,
+    Circle,
+    ChefHat,
+    IceCream,
+    CakeSlice
 } from "lucide-react";
 
 const menuCategories = {
@@ -59,6 +63,28 @@ const menuCategories = {
         icon: Salad,
         emoji: "🥬",
         description: "Fresh and healthy salad varieties.",
+        colors: {
+            bg: "bg-emerald-100",
+            text: "text-emerald-600",
+            border: "border-emerald-200",
+        },
+    },
+    raita: {
+        label: "Raita",
+        icon: Salad,
+        emoji: "🥣 ",
+        description: "Fresh and healthy Raita varieties.",
+        colors: {
+            bg: "bg-stone-100",
+            text: "text-stone-700",
+            border: "border-stone-200",
+        },
+    },
+    "pickles-papad": {
+        label: "Pickles & Papad",
+        icon: Circle,
+        emoji: "🫓",
+        description: "Pickles and papad varieties",
         colors: {
             bg: "bg-emerald-100",
             text: "text-emerald-600",
@@ -127,7 +153,7 @@ const menuCategories = {
 
     "live-counters": {
         label: "Live Counters",
-        icon: Cylinder,
+        icon: ChefHat,
         emoji: "👨‍🍳",
         description: "Freshly prepared dishes served live.",
         colors: {
@@ -175,7 +201,7 @@ const menuCategories = {
 
     desserts: {
         label: "Desserts",
-        icon: Popsicle,
+        icon: CakeSlice,
         emoji: "🍰",
         description: "Sweet endings everyone will love.",
         colors: {
