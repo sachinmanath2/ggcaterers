@@ -12,7 +12,7 @@ const MenuSelector = () => {
 
     const [search, setSearch] = useState("");
 
-    const { menu, loading, error } = useMenu();
+    const { menu, loading, error,refreshMenu } = useMenu();
 
     const { quote,nextStep } = useQuote();
 
@@ -100,7 +100,7 @@ const MenuSelector = () => {
 
                             <div className="rounded-xl bg-orange-100 p-2 text-orange-600">
 
-                                <UtensilsCrossed size={24} />
+                                <UtensilsCrossed size={24} onClick={refreshMenu} />
 
                             </div>
 

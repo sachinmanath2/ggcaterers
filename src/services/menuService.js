@@ -9,6 +9,15 @@ class MenuService {
 
         return data;
     }
+
+    async refreshMenu() {
+        const { data } = await api.get("/refresh-menu");
+        if (!data.success) {
+            throw new Error(data.message);
+        }
+
+        return data;
+    }
 }
 
 export default new MenuService();

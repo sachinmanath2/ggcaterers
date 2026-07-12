@@ -34,6 +34,11 @@ export default function useMenu() {
 
     }, []);
 
+    const refreshMenu = async () => {
+        await menuService.refreshMenu(); // Clears Laravel cache
+        await loadMenu();                // Fetches fresh menu
+    };
+
     useEffect(() => {
 
         loadMenu();
@@ -47,6 +52,8 @@ export default function useMenu() {
         loading,
 
         error,
+
+        refreshMenu,
 
         refresh: loadMenu,
 
